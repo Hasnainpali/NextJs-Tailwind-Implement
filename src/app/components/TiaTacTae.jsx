@@ -80,7 +80,7 @@ export default function TiaTacTae() {
        },[tiles])
 
   return (
-    <div className='flex flex-col justify-center items-center bg-blue-400 w-full  h-screen ' >
+    <div className='flex flex-col justify-center items-center bg-blue-400 w-full h-screen ' >
        <h1 className=' font-semibold text-5xl mt-4'> Tic Tac Toe</h1>
          <p className='text-2xl mt-3 '>{`Hey ${playerTurn } it's your Turn`}</p>
        <Board tiles={tiles} playerTurn={playerTurn} onTileClick={handleTilesClick} />
